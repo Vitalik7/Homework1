@@ -8,7 +8,7 @@ var i;
 	for (i = 0; i < arrayNumbers.length; i++){
 	     if(!isNaN(arrayNumbers[i])) {
         sum += arrayNumbers[i]
-    	}
+    	     }
 	}
 	console.log('SUM = ' + sum);
 
@@ -22,14 +22,14 @@ var i;
 	console.log('MIN = ' + min);
 
 	for (i = 0; i < arrayNumbers.length; i++) { 
-     if(!isNaN(arrayNumbers[i])) {
-            if(arrayNumbers[i] > max) {
-                max = arrayNumbers[i]
-            }
+    		if(!isNaN(arrayNumbers[i])) {
+            		if(arrayNumbers[i] > max) {
+                		max = arrayNumbers[i]
+            		}
 			else if (i == 0) {
  				max = arrayNumbers[i]
  			}
  		}
  	}
-    console.log('MAX = ' + max)
+    	console.log('MAX = ' + max)
 
