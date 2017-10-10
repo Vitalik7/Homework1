@@ -11,14 +11,11 @@ var i;
     }
     console.log('SUM = ' + sum);
 
-	i = arrayNumbers.length;
-	min = arrayNumbers[0];
-	while (min < i) {
-	  if (arrayNumbers[i] < min ) {
-	    min = arrayNumbers[i]
-	  }
-	  i--;
-	}
+	for (i = 0; i < arrayNumbers.length; i++) { 
+      if( arrayNumbers[i] < min || typeof min === 'undefined') {
+        min = arrayNumbers[i]
+ 	  }
+ 	}
 	console.log('MIN = ' + min);
 
 	for (i = 0; i < arrayNumbers.length; i++) { 
