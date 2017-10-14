@@ -14,15 +14,15 @@ arr.forEach(function (element, index) {
 		min = index;
 	}
 });
-	console.log('min = ' + min);
+console.log('min = ' + min);
 
 arr.forEach(function (element, index) {
-	if (element > max) {
-		max = element;
-		max = index;
+  if (element > max) {
+    max = element;
+    max = index;
 	}
 });
-	console.log('max = ' + max);
-	arr.splice(i, 1, min);
-	arr.splice(i, 1, max);
+console.log('max = ' + max);
+arr.splice(i, 1, min);
+arr.splice(i, 1, max);
 console.log(arr);
